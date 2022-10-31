@@ -2,3 +2,19 @@ html, body {
   height: 100%;
   width: 100%;
 }
+@font-face {
+  font-family: 'Omori';
+  src: url(fonts/omori.woff2) format('woff2'),
+    url(fonts/omori.woff) format('woff'),
+    url(fonts/omori.ttf) format('truetype');
+}
+.textside h1{
+font-family: 'Omori';
+font-size: 150px;
+text-align: center;
+}
+
+
+
+
+
