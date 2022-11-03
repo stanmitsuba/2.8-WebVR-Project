@@ -15,16 +15,41 @@
 <body>
   <!-- SCENE -->
   <a-scene physics="gravity: -9.8; restitution: 0.1" inspector-plugin-recast>
-    <a-plane id="floor" position="0 0 0" rotation="-90 0 0" color="gray" scale="30 30 20"></a-plane>
+    <a-plane id="floor" position="0 0 0" rotation="-90 0 0" color="gray" scale="20 20 20"></a-plane>
+    <!-- walls -->
+    <a-box color="black" id="1" width="0.5" height="3" depth="3" position="6.235 1.5 8.207" scale="1 1 1.163"></a-box>
+    <a-box color="black" id="2" width="0.5" height="3" depth="3" position="8.989 1.5 8.241" rotation="0 90 0"
+      scale="1 1 0.685"></a-box>
+    <a-box color="black" id="3" width="0.5" height="3" depth="3" position="8.283 1.5 5.480" scale="1 1 0.679"></a-box>
+    <a-box color="black" id="4" width="0.5" height="3" depth="3" position="6.064 1.5 6.242" rotation="0 90 0"
+      scale="1 1 1.320"></a-box>
+    <a-box color="black" id="5" width="0.5" height="3" depth="3" position="6.209 1.5 1.457" scale="1 1 2.036"></a-box>
+    <a-box color="black" id="6" width="0.5" height="3" depth="3" position="8.985 1.5 2.241" rotation="0 90 0"
+      scale="1 1 0.667"></a-box>
+    <a-box color="black" id="7" width="0.5" height="3" depth="3" position="8.999 1.5 0.305" rotation="0 90 0"
+      scale="1 1 0.667"></a-box>
+    <a-box color="black" id="8" width="0.5" height="3" depth="3" position="8.999 1.5 -5.755" rotation="0 90 0"
+      scale="1 1 0.667"></a-box>
+    <a-box color="black" id="9" width="0.5" height="3" depth="3" position="8.221 1.5 -7.015" scale="1 1 0.667"></a-box>
+    <a-box color="black" id="10" width="0.5" height="3" depth="3" position="3.252 1.5 8.267" rotation="0 90 0"
+      scale="1 1 0.837"></a-box>
+    <a-box color="black" id="11" width="0.5" height="3" depth="3" position="6.239 1.5 -1.743" rotation="0 90 0"
+      scale="1 1 1.496"></a-box>
+    <a-box color="black" id="12" width="0.5" height="3" depth="3" position="5.247 1.5 -3.747" rotation="0 90 0"
+      scale="1 1 2.170"></a-box>
+    <a-box color="black" id="13" width="0.5" height="3" depth="3" position="6.310 1.5 -6.000" scale="1 1 1.321"></a-box>
+    <a-box color="black" id="14" width="0.5" height="3" depth="3" position="4.246 1.5 -7.556" scale="1 1 1.321"></a-box>
+    <a-box color="black" id="15" width="0.5" height="3" depth="3" position="2.237 1.5 6.954" scale="1 1 2.036"></a-box>
+    <a-box color="black" id="16" width="0.5" height="3" depth="3" position="3.951 1.5 4.208" rotation="0 90 0"
+      scale="1 1 1.320"></a-box>
+    <a-box color="black" id="17" width="0.5" height="3" depth="3" position="0.267 1.5 6.261" scale="1 1 2.495"></a-box>
+    <a-box color="black" id="18" width="0.5" height="3" depth="3" position="-1.734 1.5 8.972" scale="1 1 0.667"></a-box>
+    <a-box color="black" id="19" width="0.5" height="3" depth="3" position="-1.734 1.5 3.5" scale="1 1 0.667"></a-box>
+    <a-box color="black" id="20" width="0.5" height="3" depth="3" position="1.211 1.5 2.221" rotation="0 90 0"
+      scale="1 1 2.154"></a-box>
 
-<a-box color="black" id="1" width="0.5" height="6" depth="3" podition="-1.5 0.5 0"></a-box>
 
- <!-- 
-<a-plane id="backWall" position="0 1.993 -14.922" rotation="0 0 0" color="black" scale="30 4 1"></a-plane>
-		<a-plane id="leftWall" position="-14.990 1.970 0" rotation="0 90 0" color="black" scale="30 4 1"></a-plane>
-		<a-plane id="rightWall" position="14.926 2.012 0" rotation="0 -90 0" color="black" scale="30 4 1"></a-plane>
-		<a-plane id="frontWall" position="0 1.993 14.947" rotation="0 180 0" color="black" scale="30 4 1"></a-plane>
-  -->
+
   </a-scene>
 </body>
 
