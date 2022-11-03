@@ -12,9 +12,16 @@ html, body {
 font-family: 'Omori';
 font-size: 150px;
 text-align: center;
+color: #112A46;
 }
-
-
-
-
-
+.w3-button {
+  font-family: "Omori";
+  font-size: 100px;
+}
+.button2 {
+  font-family: "Omori";
+  font-size: 80px;
+  color:#112A46;
+  border-radius: 12px;
+  border: 5px solid #112A46;
+}
