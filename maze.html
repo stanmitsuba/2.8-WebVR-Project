@@ -4,28 +4,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>The Maze</title>
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
   <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
-  <!--Script needed to create the navmesh in the inspector-->
   <script src="https://recast-api.donmccurdy.com/aframe-inspector-plugin-recast.js" crossorigin="anonymous"></script>
-  <!-- A-frame extras-->
   <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
   <script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script>
 </head>
 
 <body>
   <!-- SCENE -->
-  <a-scene physics="gravity: -9.8; restitution: 0,1" inspector-plugin-recase background="color: #3A3B3C;">
+  <a-scene physics="gravity: -9.8; restitution: 0.1" inspector-plugin-recast>
     <a-plane id="floor" position="0 0 0" rotation="-90 0 0" color="gray" scale="30 30 20"></a-plane>
 
 <a-box color="black" id="1" width="0.5" height="6" depth="3" podition="-1.5 0.5 0"></a-box>
 
-  
+ <!-- 
 <a-plane id="backWall" position="0 1.993 -14.922" rotation="0 0 0" color="black" scale="30 4 1"></a-plane>
 		<a-plane id="leftWall" position="-14.990 1.970 0" rotation="0 90 0" color="black" scale="30 4 1"></a-plane>
 		<a-plane id="rightWall" position="14.926 2.012 0" rotation="0 -90 0" color="black" scale="30 4 1"></a-plane>
 		<a-plane id="frontWall" position="0 1.993 14.947" rotation="0 180 0" color="black" scale="30 4 1"></a-plane>
-  
+  -->
   </a-scene>
 </body>
 
